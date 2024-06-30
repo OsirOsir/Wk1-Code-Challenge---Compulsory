@@ -6,3 +6,6 @@
 # Challenge 2: Speed Detector (Toy Problem)'            
 # Challenge 3: Net Salary Calculator (Toy Problem)
 # README.md
+
+
+# To run this programs, you need to have Node.js installed on your machine.

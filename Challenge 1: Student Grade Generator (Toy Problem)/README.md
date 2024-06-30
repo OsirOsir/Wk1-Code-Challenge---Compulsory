@@ -8,3 +8,5 @@
 - Marks between 49 and 59: Grade C
 - Marks between 40 and 49: Grade D
 - Marks below 40: Grade E
+
+# To run this program, you need to have Node.js installed on your machine.
