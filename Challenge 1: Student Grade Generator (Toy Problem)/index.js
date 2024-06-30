@@ -1,14 +1,14 @@
-const readline = require('readline');
+const readline = require('readline');  // Imports Readline module for reading input 
 
-const rl = readline.createInterface({
+const rl = readline.createInterface({  // Creates an interface for reading input from the console
   input: process.stdin,
   output: process.stdout
 });
 
-function gradeGenerator() {
-  rl.question("Please input your Marks:",(Marks) => {
-    if(isNaN(Marks)) {
-      console.log("Inavalid Input!");
+function gradeGenerator() { // Function that generates the grade based on input marks
+  rl.question("Please input your Marks:",(Marks) => { // Prompts the user for input
+    if(isNaN(Marks)) {// Checks if the input is not a number
+      console.log("Inavalid Input!");// Outputs an error message
       return gradeGenerator()
     }
 
@@ -23,8 +23,8 @@ function gradeGenerator() {
     } else {
       console.log("Your Grade is: E")
     }
-    rl.close()
+    rl.close()// Closes the readline interface
   })
 }
 
-gradeGenerator()
+gradeGenerator()// Calls or envoks the function to start the grade generation process
